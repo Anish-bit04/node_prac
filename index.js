@@ -1,6 +1,5 @@
-const http = require("http");
+import http from "http"
 import {generateLovePercent} from "./features.js" 
-
 
 console.log(generateLovePercent())
 const server = http.createServer((req,res) => {
